@@ -1,7 +1,7 @@
 Hello! This is the public release of my final project for [CodePath](https://www.codepath.org/)'s intermediate web development course.
-It is a forum that centers around a community. And in my project, it centers around a game called Helldivers.
+It is a forum that centers around a community; and in my project, it centers around a game called Helldivers.
 
-For the sake of readability, I have edited the README. And for the sake of not exposing my API keys those have been removed from the src/client.jsx file.
+For the sake of readability, I have edited the README; and for the sake of not exposing my API keys, those have been removed from the src/client.jsx file.
 You can still use the website in its functional state on [Netlify](https://superlative-flan-ff087e.netlify.app/) (*note: there are some bugs with redirection that are not present in the local version*).
 
 ---
