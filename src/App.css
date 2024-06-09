@@ -1,0 +1,46 @@
+html {
+  background-image: url("src/assets/clouds.jpg");
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+nav {
+  margin-bottom: 30px;
+}
+
+.nav-link-button {
+  font-family: monospace;
+  font-size: 2em;
+  border: none;
+  border-radius: 5px 10px;
+  background: #feca00;
+  padding: 30px 120px;
+  margin: 10px;
+  color: black;
+}
+
+.gallery {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+ul {
+  justify-content: space-evenly;
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+  ul {
+    justify-content: center;
+    flex-direction: column;
+  }
+}

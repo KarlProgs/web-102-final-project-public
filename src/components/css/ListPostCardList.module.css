@@ -1,0 +1,29 @@
+.search {
+    display: flex;
+    justify-content: space-between;
+}
+
+.search > button {
+    margin: 2px;
+    background-color: #5B7C99;
+}
+
+.search > input {
+    justify-self: baseline;
+    margin-left: auto;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+  .search {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .search > input {
+    margin: auto;
+    margin-top: 10px;
+    width: 100%;
+  }
+}

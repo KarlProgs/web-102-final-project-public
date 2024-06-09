@@ -1,0 +1,55 @@
+search {
+  margin-bottom: 10px;
+}
+
+.card {
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(153 153 153 / 49.7%);
+  border-radius: 20px;
+  padding: 20px 10px;
+  margin-bottom: 25px;
+  text-align: left;
+}
+
+.post-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+}
+
+.post-content:hover {
+  color: darkgrey;
+  font-size: 24px;
+}
+
+.info>p {
+  margin: 5px;
+}
+
+.time,
+.user {
+  font-size: 0.5em;
+}
+
+.upvotes {
+  color: white;
+  font-size: 0.7em;
+}
+
+.post-img > img {
+  border-radius: 10%;
+  max-height: 100px;
+  max-width: 200px;
+}
+
+.button {
+  font-family: monospace;
+  font-size: 2em;
+  border: none;
+  border-radius: 5px 10px;
+  background: #feca00;
+  padding: 30px 120px;
+  color: black;
+}
